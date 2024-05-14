@@ -14,6 +14,22 @@ public:
     void isiData();
 };
 
+// Definisi member Function
+angka::angka(int i)  // Constructor
+{
+    panjang = i;
+    arr = new int[i];
+    isiData();
+}
+
+angka::~angka()       // Destructor
+{
+    cout << endl;
+    cetakData();
+    delete[]arr;
+    cout << "Alamat Array Sudah Dilepaskan" << endl;
+}
+
 
 
 int main()
