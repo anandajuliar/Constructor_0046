@@ -18,3 +18,10 @@ public:
     setID();
     }
 };
+
+int mahasiswa::nim = 113;
+
+int main()
+{
+    std::cout << "Hello World!\n";
+}
