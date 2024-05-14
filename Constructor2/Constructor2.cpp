@@ -41,10 +41,10 @@ void mahasiswa::printAll()
 
 int main()
 {
-    mahasiswa mhs1("Sri Sultan");
+    mahasiswa mhs1("Sri Dadi");
     mahasiswa mhs2("Budi Santoso");
 
-    mahasiswa::setNim(236); // Mengakses nim melalui static member function "setNim"
+    mahasiswa::setNim(9); // Mengakses nim melalui static member function "setNim"
     mahasiswa mhs3("Andi Jarwo");
     mahasiswa mhs4("Joko Tingkir");
 
