@@ -12,7 +12,7 @@ public:
     mahasiswa()
     {
         nim = 0
-            nama = "";
+        nama = "";
     };
 
     mahasiswa(int iNim)
